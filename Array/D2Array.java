@@ -14,10 +14,15 @@ public class D2Array {
             }
         }
 //            output
-        System.out.println("your matrix is ");
+        System.out.println("find this number  ");
+        int x=sc.nextInt();
         for (int i = 0; i < row ; i++) {
             for (int j = 0; j <col ; j++) {
-                System.out.print(xy[i][j]+ "  ");
+                if (xy[i][j] == x) {
+
+
+                    System.out.print("x found in " + i + " "+ j);
+                }
             }
             System.out.println();
         }
